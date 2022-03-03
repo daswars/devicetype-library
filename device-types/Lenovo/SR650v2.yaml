@@ -1,7 +1,7 @@
 ---
 manufacturer: Lenovo
-model: SR630
-slug: sr630
+model: SR650v2
+slug: sr650v2
 part_number: 7Z73SFS100
 interfaces:
   - name: XCC
