@@ -15,7 +15,7 @@ interfaces:
     type: 1000base-t
   - name: Ethernet 4
     type: 1000base-t
-front-ports:
+console-ports:
   - name: Front VGA
     type: other
   - name: External Diagnostics Port
@@ -24,8 +24,7 @@ front-ports:
     type: usb-a
   - name: Front usb 2.0
     type: usb-a
-rear-ports:
-  - name: Front VGA
+  - name: Rear VGA
     type: other
   - name: Rear usb 3.0
     type: usb-a
