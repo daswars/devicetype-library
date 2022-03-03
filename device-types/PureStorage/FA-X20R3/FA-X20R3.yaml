@@ -1,0 +1,73 @@
+---
+manufacturer: PureStorage
+model: FA-X20R3
+slug: fa-x20R3
+part_number: FA-X20R3-ETH-11TB-11/0-EMEZZ
+interfaces:
+  - name: ct0_eth0
+    type: 1000base-t
+  - name: ct0_eth1
+    type: 1000base-t
+  - name: ct0_eth2
+    type: 10gbase-x-sfpp
+  - name: ct0_eth3
+    type: 10gbase-x-sfpp
+  - name: ct0_eth4
+    type: 10gbase-x-sfpp
+  - name: ct0_pcie0_port1
+    type: 16gfc-sfpp
+  - name: ct0_pcie0_port2
+    type: 16gfc-sfpp
+  - name: ct0_pcie0_port3
+    type: 16gfc-sfpp
+  - name: ct0_pcie0_port4
+    type: 16gfc-sfpp
+  - name: ct0_pcie2_port1
+    type: 16gfc-sfpp
+  - name: ct0_pcie2_port2
+    type: 16gfc-sfpp
+  - name: ct1_eth0
+    type: 1000base-t
+  - name: ct1_eth1
+    type: 1000base-t
+  - name: ct1_eth2
+    type: 10gbase-x-sfpp
+  - name: ct1_eth3
+    type: 10gbase-x-sfpp
+  - name: ct1_eth4
+    type: 10gbase-x-sfpp
+  - name: ct1_pcie0_port1
+    type: 16gfc-sfpp
+  - name: ct1_pcie0_port2
+    type: 16gfc-sfpp
+  - name: ct1_pcie0_port3
+    type: 16gfc-sfpp
+  - name: ct1_pcie0_port4
+    type: 16gfc-sfpp
+  - name: ct1_pcie2_port1
+    type: 16gfc-sfpp
+  - name: ct1_pcie2_port2
+    type: 16gfc-sfpp  
+console-ports:
+  - name: ct0_Console
+    type: rj-45
+  - name: ct0_kvm
+    type: other
+  - name: ct1_Console
+    type: rj-45
+  - name: ct1_kvm
+    type: other
+rear-ports:
+  - name: ct0_USB0
+    type: usb-a
+  - name: ct0_USB1
+    type: usb-a
+  - name: ct1_USB0
+    type: usb-a
+  - name: ct1_USB1
+    type: usb-a    
+power-ports:
+  - name: PS0
+    type: iec-60320-c14
+  - name: PS1
+    type: iec-60320-c14  
